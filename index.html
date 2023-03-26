@@ -1,0 +1,544 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Home - Jibon Modz</title>
+
+  <!-- 
+  --font awesome 
+-->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.3.0/css/all.min.css"
+    integrity="sha512-SzlrxWUlpfuzQ+pcUCosxcglQRNAq/DZjVsC0lE40xsADsfeQoEypE+enwcOiGjk/bSuGGKHEyjSoQ1zVisanQ=="
+    crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+
+
+  <!-- 
+    - favicon
+  -->
+  <link rel="shortcut icon" href="logo.png" type="image/svg+xml">
+
+  <!-- 
+    - custom css link
+  -->
+  <link rel="stylesheet" href="style/style.css">
+  <link rel="stylesheet" href="scss/worklist.css">
+
+
+  <!-- 
+    - google font link
+  -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link
+    href="https://fonts.googleapis.com/css2?family=Poppins:wght@700&family=Roboto:wght@400;700&family=Saira+Stencil+One&display=swap"
+    rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Crimson+Text:wght@400;700&display=swap" rel="stylesheet">
+</head>
+
+<body>
+
+  <!-- 
+    - #HEADER
+  -->
+  <header>
+    <div class="container">
+
+      <div class="nav">
+        <input type="checkbox" id="nav-check">
+        <div class="nav-header">
+          <div class="nav-title">
+            <img src="images/logos.png" alt="">
+            <h1>Jibon Modz <span>.</span></h1>
+          </div>
+        </div>
+        <div class="nav-btn">
+          <label for="nav-check">
+            <lord-icon src="https://cdn.lordicon.com/bwhjesak.json" trigger="morph"
+              colors="primary:#ffffff,secondary:#08a88a" stroke="65" style="width:50px;height:50px">
+            </lord-icon>
+          </label>
+        </div>
+
+        <div class="nav-links">
+          <ul class="nav-icon-sec">
+            <li class="nav-icon " id="reset-button">
+              <lord-icon src="https://cdn.lordicon.com/gmzxduhd.json" trigger="hover"
+                colors="primary:#fff,secondary:#c71f16" stroke="60" state="hover" style="width:40px;height:40px">
+              </lord-icon>
+            </li>
+            <li class="nav-icon" id="whatsapp-button">
+              <lord-icon src="https://cdn.lordicon.com/zpxybbhl.json" trigger="hover"
+                colors="primary:#fff,secondary:#c71f16" stroke="60" style="width:40px;height:40px">
+              </lord-icon>
+            </li>
+
+            <li class="nav-icon" id="tool-button">
+              <lord-icon src="https://cdn.lordicon.com/sbiheqdr.json" trigger="hover"
+                colors="primary:#fff,secondary:#e83a30" style="width:40px;height:40px">
+              </lord-icon>
+            </li>
+            <li class="nav-icon" id="profile-button">
+              <lord-icon src="https://cdn.lordicon.com/dxjqoygy.json" trigger="hover"
+                colors="primary:#fff,secondary:#e83a30" stroke="60" style="width:40px;height:40px">
+              </lord-icon>
+            </li>
+          </ul>
+        </div>
+      </div>
+
+    </div>
+  </header>
+
+
+
+  <main>
+    <article class="container">
+
+      <!-- 
+        - #head manu
+      -->
+
+      <section id="section-one">
+        <div class="head-img">
+          <img src="images/love-boss.png" alt="">
+        </div>
+        <div class="head-section">
+          <div class="head-title-1">
+            <h1 id="headline">WelCome To Jibon Gaming</h1>
+            <p id="text">Over the years, I have gained extensive experience in the art of mod sales. From negotiating
+              prices to closing deals, I have honed my skills to perfection. I understand the importance of building
+              strong relationships with clients, and I am always striving to deliver exceptional service. With a deep
+              knowledge of the industry and a passion for what I do, I am confident in my ability to provide the best
+              possible results for my clients. Whether it's finding the perfect mod or securing the best deal, I am
+              dedicated to achieving success in every transaction.</p>
+          </div>
+
+        </div>
+
+      </section>
+
+
+
+
+      <!-- 
+        - #imgcard
+      -->
+
+
+      <section id="section-three">
+
+
+        <div class="sell-head">
+          <h1>All Mod Menu</h1>
+          <p>Free fire and all kinds of hacks. Which has been made till today. And did very good job</p>
+        </div>
+
+
+        <div class="card-list-work">
+
+          <div class="card-1 card-div">
+            <div class="like-icon-div">
+              <img src="images/list/psteam.jpg" alt="">
+              <label for="card-1-like" class="like-icon-div-child">
+
+                <input type="checkbox" id="card-1-like">
+                <i class="far fa-heart heart-empty"></i>
+                <i class="fas fa-heart heart-fill"></i>
+              </label>
+            </div>
+
+
+            <div class="text-container">
+              <h2 class="item-name">PS TEAM</h2>
+              <p class="date"> Departure date: 31/03/2023</p>
+              <div class="pricing-and-cart">
+                <div class="pricing">
+                  <p class="previous-price"><i class="fa-sharp fa-solid fa-bangladeshi-taka-sign"
+                      style="color: #ff0000;">1800</i></p>
+                  <p class="current-price"><i class="fa-sharp fa-solid fa-bangladeshi-taka-sign"
+                      style="color: #ffffff;">1200</i></p>
+                </div>
+
+                <div class="btn-confirm" onclick="psteam()">
+                  <a class="button">Chack Out</a>
+                </div>
+
+              </div>
+            </div>
+          </div>
+
+          <div class="card-1 card-div ">
+            <div class="like-icon-div img-ed">
+              <img src="images/list/ffh4xx.jpg" alt="">
+              <label for="card-2-like" class="like-icon-div-child">
+
+                <input type="checkbox" id="card-2-like">
+                <i class="far fa-heart heart-empty"></i>
+                <i class="fas fa-heart heart-fill"></i>
+              </label>
+            </div>
+
+
+            <div class="text-container">
+              <h2 class="item-name">FFH4X</h2>
+              <p class="date"> Departure date: 01/08/2022 </p>
+              <div class="pricing-and-cart">
+                <div class="pricing">
+                  <p class="previous-price"><i class="fa-sharp fa-solid fa-bangladeshi-taka-sign"
+                      style="color: #ff0000;">2200</i></p>
+                  <p class="current-price"><i class="fa-sharp fa-solid fa-bangladeshi-taka-sign"
+                      style="color: #ffffff;">1400</i></p>
+                </div>
+                <div class="btn-confirm" onclick="ffh4x()">
+                  <a class="button">Chack Out</a>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="card-1 card-div">
+            <div class="like-icon-div img-e1">
+              <img src="images/list/newmodd.jpg" alt="">
+              <label for="card-3-like" class="like-icon-div-child">
+
+                <input type="checkbox" id="card-3-like">
+                <i class="far fa-heart heart-empty"></i>
+                <i class="fas fa-heart heart-fill"></i>
+              </label>
+            </div>
+
+
+            <div class="text-container">
+              <h2 class="item-name">Error 404</h2>
+              <p class="date"> Departure date: 25/07/2023 </p>
+              <div class="pricing-and-cart">
+                <div class="pricing">
+                  <p class="previous-price"><i class="fa-sharp fa-solid fa-bangladeshi-taka-sign"
+                      style="color: #ff0000;">1400</i></p>
+                  <p class="current-price"><i class="fa-sharp fa-solid fa-bangladeshi-taka-sign"
+                      style="color: #ffffff;">800</i></p>
+                </div>
+                <div class="btn-confirm" onclick="newmod()">
+                  <a class="button">Chack Out</a>
+                </div>
+              </div>
+            </div>
+          </div>
+
+        </div>
+
+
+        <!-- ------------- -->
+
+        <div class="card-list-work">
+
+          <div class="card-1 card-div">
+            <div class="like-icon-div img-e2">
+              <img src="images/list/lk teamm.jpg" alt="">
+              <label for="card-4-like" class="like-icon-div-child">
+
+                <input type="checkbox" id="card-4-like">
+                <i class="far fa-heart heart-empty"></i>
+                <i class="fas fa-heart heart-fill"></i>
+              </label>
+            </div>
+
+
+            <div class="text-container">
+              <h2 class="item-name">Lk Team</h2>
+              <p class="date"> Departure date: 04/01/2019 </p>
+              <div class="pricing-and-cart">
+                <div class="pricing">
+                  <p class="previous-price"><i class="fa-sharp fa-solid fa-bangladeshi-taka-sign"
+                      style="color: #ff0000;">1400</i></p>
+                  <p class="current-price"><i class="fa-sharp fa-solid fa-bangladeshi-taka-sign"
+                      style="color: #ffffff;">900</i></p>
+                </div>
+                <div class="btn-confirm" onclick="lkteam()">
+                  <a class="button">Chack Out</a>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="card-1 card-div">
+            <div class="like-icon-div img-e3">
+              <img src="images/list/ifinity.jpg" alt="">
+              <label for="card-5-like" class="like-icon-div-child">
+
+                <input type="checkbox" id="card-5-like">
+                <i class="far fa-heart heart-empty"></i>
+                <i class="fas fa-heart heart-fill"></i>
+              </label>
+            </div>
+
+
+            <div class="text-container">
+              <h2 class="item-name">Infinity Team</h2>
+              <p class="date"> Departure date: 14/07/2022 </p>
+              <div class="pricing-and-cart">
+                <div class="pricing">
+                  <p class="previous-price"><i class="fa-sharp fa-solid fa-bangladeshi-taka-sign"
+                      style="color: #ff0000;">1400</i></p>
+                  <p class="current-price"><i class="fa-sharp fa-solid fa-bangladeshi-taka-sign"
+                      style="color: #ffffff;">1000</i></p>
+                </div>
+                <div class="btn-confirm" onclick="ifinity()">
+                  <a class="button">Chack Out</a>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="card-1 card-div ">
+            <div class="like-icon-div img-e4">
+              <img src="images/list/broken.jpg" alt="">
+              <label for="card-6-like" class="like-icon-div-child">
+
+                <input type="checkbox" id="card-6-like">
+                <i class="far fa-heart heart-empty"></i>
+                <i class="fas fa-heart heart-fill"></i>
+              </label>
+            </div>
+
+
+            <div class="text-container">
+              <h2 class="item-name">Broken Panal</h2>
+              <p class="date"> Departure date: 25/02/2020 </p>
+              <div class="pricing-and-cart">
+                <div class="pricing">
+                  <p class="previous-price"><i class="fa-sharp fa-solid fa-bangladeshi-taka-sign"
+                      style="color: #ff0000;">1200</i></p>
+                  <p class="current-price"><i class="fa-sharp fa-solid fa-bangladeshi-taka-sign"
+                      style="color: #ffffff;">600</i></p>
+                </div>
+                <div class="btn-confirm" onclick="broken()">
+                  <a class="button">Chack Out</a>
+                </div>
+              </div>
+            </div>
+          </div>
+
+        </div>
+
+        <!-- ------------- -->
+
+        <div class="card-list-work">
+
+          <div class="card-1 card-div">
+            <div class="like-icon-div img-e5">
+              <img src="images/list/darknet.jpg" alt="">
+              <label for="card-7-like" class="like-icon-div-child">
+
+                <input type="checkbox" id="card-7-like">
+                <i class="far fa-heart heart-empty"></i>
+                <i class="fas fa-heart heart-fill"></i>
+              </label>
+            </div>
+
+
+            <div class="text-container">
+              <h2 class="item-name">Darknet Haxor</h2>
+              <p class="date"> Departure date: 05/02/2023 </p>
+              <div class="pricing-and-cart">
+                <div class="pricing">
+                  <p class="previous-price"><i class="fa-sharp fa-solid fa-bangladeshi-taka-sign"
+                      style="color: #ff0000;">900</i></p>
+                  <p class="current-price"><i class="fa-sharp fa-solid fa-bangladeshi-taka-sign"
+                      style="color: #ffffff;">700</i></p>
+                </div>
+                <div class="btn-confirm" onclick="darknet()">
+                  <a class="button">Chack Out</a>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="card-1 card-div">
+            <div class="like-icon-div img-e6">
+              <img src="images/list/psh4x.jpg" alt="">
+              <label for="card-8-like" class="like-icon-div-child">
+
+                <input type="checkbox" id="card-8-like">
+                <i class="far fa-heart heart-empty"></i>
+                <i class="fas fa-heart heart-fill"></i>
+              </label>
+            </div>
+
+
+            <div class="text-container">
+              <h2 class="item-name">PSH4X</h2>
+              <p class="date"> Departure date: 06/09/2020 </p>
+              <div class="pricing-and-cart">
+                <div class="pricing">
+                  <p class="previous-price"><i class="fa-sharp fa-solid fa-bangladeshi-taka-sign"
+                      style="color: #ff0000;">1800</i></p>
+                  <p class="current-price"><i class="fa-sharp fa-solid fa-bangladeshi-taka-sign"
+                      style="color: #ffffff;">1300</i></p>
+                </div>
+                <div class="btn-confirm" onclick="psh4x()">
+                  <a class="button">Chack Out</a>
+                </div>
+
+              </div>
+            </div>
+          </div>
+
+          <div class="card-1 card-div">
+            <div class="like-icon-div img-e7">
+              <img src="images/list/br mods.jpg" alt="">
+              <label for="card-9-like" class="like-icon-div-child">
+
+                <input type="checkbox" id="card-9-like">
+                <i class="far fa-heart heart-empty"></i>
+                <i class="fas fa-heart heart-fill"></i>
+              </label>
+            </div>
+
+
+            <div class="text-container">
+              <h2 class="item-name">BR Mods</h2>
+              <p class="date"> Departure date: 09/12/2021 </p>
+              <div class="pricing-and-cart">
+                <div class="pricing">
+                  <p class="previous-price"><i class="fa-sharp fa-solid fa-bangladeshi-taka-sign"
+                      style="color: #ff0000;">500</i></p>
+                  <p class="current-price"><i class="fa-sharp fa-solid fa-bangladeshi-taka-sign"
+                      style="color: #ffffff;">200</i></p>
+                </div>
+                <div class="btn-confirm" onclick=" brmods()">
+                  <a class="button">Chack Out</a>
+                </div>
+              </div>
+            </div>
+          </div>
+
+        </div>
+
+
+
+      </section>
+
+
+    </article>
+  </main>
+
+
+
+
+
+  <!-- 
+    - #FOOTER
+  -->
+
+
+  <footer>
+    <div class="container">
+      <div class="footer-section">
+        <div class="footer-row">
+
+          <div class="footer-service">
+            <h1>Mod Sell And Development</h1>
+            <h2>Free Fire</h2>
+            <h2>Pubg</h2>
+            <h2>Call of Duty</h2>
+            <h2>Others</h2>
+          </div>
+
+          <div class="footer-about">
+            <h1>Company</h1>
+            <h2>Team</h2>
+            <h2>Legacy</h2>
+          </div>
+
+          <div class="footer-find">
+            <h1>Find US</h1>
+            <h2>Bangladesh</h2>
+            <h2>Dhaka, Mirpur DOHS</h2>
+
+          </div>
+        </div>
+
+
+
+
+        <div class="footer-icon">
+          <ul class="footer-x">
+            <li>
+              <a class="facebook" href="https://www.facebook.com/jibon5973?mibextid=ZbWKwL" target="_blank">
+                <span></span>
+                <span></span>
+                <span></span>
+                <span></span>
+                <i class="fa fa-facebook" aria-hidden="true"></i>
+              </a>
+            </li>
+            <li>
+              <a class="twitter" href="http://wa.me/8801404345698" target="_blank">
+                <span></span>
+                <span></span>
+                <span></span>
+                <span></span>
+                <i class="fa fa-twitter" aria-hidden="true"></i>
+              </a>
+            </li>
+            <li>
+              <a class="instagram" href="https://t.me/VipMod_Seller" target="_blank">
+                <span></span>
+                <span></span>
+                <span></span>
+                <span></span>
+                <i class="fa fa-instagram" aria-hidden="true"></i>
+              </a>
+            </li>
+            <li>
+              <a class="google" href="https://youtube.com/@jibongamingback" target="_blank">
+                <span></span>
+                <span></span>
+                <span></span>
+                <span></span>
+                <i class="fa fa-google-plus" aria-hidden="true"></i>
+              </a>
+            </li>
+          </ul>
+        </div>
+
+
+      </div>
+      <div class="footer-sectionx">
+        <div class="footer-img">
+          <img src="images/garena.png" alt="">
+          <h1>Jibon Gaming &copy; <span> RohimBhai 2020</span></h1>
+        </div>
+      </div>
+
+    </div>
+  </footer>
+
+
+
+
+
+  <!-- 
+    - custom js link
+  -->
+  <script src="java/script.js"></script>
+
+
+  <!-- 
+    - icon link
+  -->
+  <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
+  <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
+  <script src="https://cdn.lordicon.com/ritcuqlt.js"></script>
+
+</body>
+
+</html>
